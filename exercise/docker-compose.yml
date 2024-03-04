@@ -1,0 +1,22 @@
+# version: '3'
+
+# services:
+#   back: 
+#     build: ./backend
+#     ports: 
+#       - "3000:3000"
+#     environment:
+#       - PORT=8000
+#     volumes:
+#     - ./backend:/usr/src/app
+#     command: npm run start
+
+#   front:
+#    build: ./frontend
+#    ports: 
+#      - "3001:3000"
+#    environment:
+#       - React_APP_BACKEND_URL=http://localhost:8000
+#    volumes:
+#     - ./frontend:/usr/src/app
+#    command: npm run start
